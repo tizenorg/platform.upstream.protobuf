@@ -47,6 +47,7 @@ nobase_include_HEADERS =                                        \
   google/protobuf/stubs/atomicops_internals_pnacl.h             \
   google/protobuf/stubs/atomicops_internals_x86_gcc.h           \
   google/protobuf/stubs/atomicops_internals_x86_msvc.h          \
+  google/protobuf/stubs/atomicops_internals_generic_gcc.h       \
   google/protobuf/stubs/common.h                                \
   google/protobuf/stubs/platform_macros.h                       \
   google/protobuf/stubs/once.h                                  \
