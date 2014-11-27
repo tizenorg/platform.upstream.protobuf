@@ -16,13 +16,13 @@
 #
 
 
-%define soname 8
+%define soname 9
 
 Name:           protobuf
 Summary:        Protocol Buffers - Google's data interchange format
 License:        BSD-3-Clause
-Group:          Development/Libraries/C and C++
-Version:        2.5.0
+Group:          System/Libraries
+Version:        2.6.1
 Release:        0
 Url:            http://code.google.com/p/protobuf/
 Source0:        http://protobuf.googlecode.com/files/%{name}-%{version}.tar.bz2
@@ -114,8 +114,8 @@ rm -rf $RPM_BUILD_ROOT;
 
 %files devel
 %defattr(-,root,root)
-%doc COPYING.txt 
-%doc CHANGES.txt CONTRIBUTORS.txt README.txt
+%license LICENSE
+%doc CHANGES.txt CONTRIBUTORS.txt README.md
 %doc examples
 %{_bindir}/protoc
 %{_includedir}/google
